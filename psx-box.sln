@@ -6,12 +6,21 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "psx-box", "psx-box\psx-box.vcxproj", "{F706A7E3-453D-4B0A-8DAB-00EBEA3947B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PPU", "PPU", "{A752FBD1-179B-4975-BA51-58413CF9B415}"
+	ProjectSection(SolutionItems) = preProject
+		ppu.cpp = ppu.cpp
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CPU", "CPU", "{790C0C12-43AF-439B-ADD2-E6150AF0634A}"
+	ProjectSection(SolutionItems) = preProject
+		cpu.cpp = cpu.cpp
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{B2F51A0C-2C24-4D39-8597-BB94CD44ABF3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authors", "Authors", "{63B70008-B73A-43FB-9D73-43624C5745CD}"
+	ProjectSection(SolutionItems) = preProject
+		Authors.txt = Authors.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
