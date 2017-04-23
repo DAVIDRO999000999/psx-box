@@ -9,7 +9,7 @@ namespace cpu {
 
 	typedef void(*opcode)();
 
-	// The PS1 Has a total of 64 Op Codes
+	// The PS1 Has a total of 67 Op Codes
 	extern opcode op_table[64];
 	extern opcode op_table_special[64];
 
@@ -86,8 +86,28 @@ namespace cpu {
 	void write_data(int width, uint32_t address, uint32_t data);
 
 
+	// Reads data from the CPU Bus at the specified address in memeory
+	uint32_t bus_read(int width, uint32_t address);
 
 
+	// Writes the given data to the CPU Bus at the address in memory
+	void bus_write(int width, uint32_t address, uint32_t data);
+
+	/* -------------
+	   Instructions
+	   -------------
+
+	   These are the Operation or OpCodes for the PS1 */
+
+
+	// Implementing Opcodes as function calls
+	void op_add();
+	void op_addi();
+	void op_addiu();
+	void op_addu();
+	void op_and();
+     
+ 
 }
 
 
