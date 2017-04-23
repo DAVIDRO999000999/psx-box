@@ -118,6 +118,7 @@ namespace cpu {
 	void op_cop2();
 	void op_cop3();
 	void op_div();
+	void op_divu();
      
  
 }
