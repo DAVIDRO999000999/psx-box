@@ -106,6 +106,18 @@ namespace cpu {
 	void op_addiu();
 	void op_addu();
 	void op_and();
+	void op_andi();
+	void op_beq();
+	void op_bgtz();
+	void op_blez();
+	void op_bne();
+	void op_break();
+	void op_bxx();
+	void op_cop0();
+	void op_cop1();
+	void op_cop2();
+	void op_cop3();
+	void op_div();
      
  
 }
