@@ -13,7 +13,7 @@ namespace cpu {
 	extern opcode op_table[64];
 	extern opcode op_table_special[64];
 
-	// Stopping Here for tonight will resume work tommorow 
+	// Stopping Here for tonight will resume work tommorow :) 
 
 
 
