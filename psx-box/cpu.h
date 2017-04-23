@@ -1,7 +1,7 @@
 #pragma once
 
-#ifndef PSXACT_CPU_CORE_HPP
-#define PSXACT_CPU_CORE_HPP
+#ifndef PSXBOX_CPU_CORE_HPP
+#define PSXBOX_CPU_CORE_HPP
 
 #include <cstdint>
 
