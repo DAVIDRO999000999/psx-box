@@ -1,4 +1,4 @@
-A Special Thanks to Adam-Becker for writing PSXACT the PSX Emulator from which psx-box is based off of.
+A Special Thanks to Adam-Becker for writing PSXACT the Open Source PSX Emulator from which psx-box is based off of.
 
 {The Team}
 Developers - Wiired24,ElijahZAwesome
