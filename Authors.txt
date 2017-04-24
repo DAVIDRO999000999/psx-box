@@ -3,5 +3,5 @@ I would also like to thank Github user Simias for documenting the PS1 very well 
 invaulable to the project. https://github.com/simias/psx-guide
 
 {The Team}
-Developers - Wiired24,ElijahZAwesome
-Debugger- DavidRO99
+Developers - Wiired24,ElijahZAwesome,DavidRO99
+Debuggers- DavidRO99
