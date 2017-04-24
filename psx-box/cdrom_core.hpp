@@ -4,7 +4,7 @@
 #include <cstdint>
 #include <deque>
 
-//Create a new namespace
+//Create a new namespace for cdrom
 namespace cdrom {
   struct state_t {
   
