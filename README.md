@@ -8,12 +8,13 @@ Progress 40 - 45% roughly
 |Input has been implemented|
 |CPU Bus has been implemented|
 |Timing has been implemeneted|
+|SPU Code|
 
-Work left to do -
+
+|Work left to do|
 |CPU Core code|
 |GPU Code|
 |Rendering Code|
-|SPU Code|
 |Dma Core Code|
 
 
