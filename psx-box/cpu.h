@@ -191,6 +191,6 @@ namespace cpu {
 
 
 
-#endif //PSXBOX_CPU_CORE_HPP
+#endif //PSXBOX_CPU_CORE_HPP.
 
 
