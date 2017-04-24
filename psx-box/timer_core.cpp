@@ -1,5 +1,6 @@
+#include <pch.h>
 #include "timer_core.hpp"
-#include "../bus.hpp"
+#include "bus.hpp"
 
 static timer::state_t timers[3];
 
