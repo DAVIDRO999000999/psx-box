@@ -4,6 +4,7 @@
 
 cdrom::state_t cdrom::state;
 
+// Function gets the args and returns paramter
 static uint8_t get_arg() {
   auto parameter = cdrom::state.args_fifo.front();
   cdrom::state.args_fifo.pop_front();
@@ -11,10 +12,12 @@ static uint8_t get_arg() {
   return parameter;
 }
 
+// Function sets the args
 static void set_arg(uint8_t data) {
   cdrom::state.args_fifo.push_back(data);
 }
 
+// Function gets the response from cdrom and returns it
 static uint8_t get_resp() {
   auto response = cdrom::state.resp_fifo.front();
   cdrom::state.resp_fifo.pop_front();
@@ -22,10 +25,12 @@ static uint8_t get_resp() {
   return response;
 }
 
+// Function sets the response to cdrom
 static void set_resp(uint8_t data) {
   cdrom::state.data_fifo.push_back(data);
 }
 
+// Function gets data from cdrom
 static uint32_t get_data() {
   auto data = cdrom::state.data_fifo.front();
   cdrom::state.data_fifo.pop_front();
@@ -33,12 +38,15 @@ static uint32_t get_data() {
   return data;
 }
 
+// Function sets data for cdrom
 static void set_data(uint8_t data) {
   cdrom::state.data_fifo.push_back(data);
 }
 
+// Bus read function reads in an address passed to it
 uint32_t cdrom::bus_read(int width, uint32_t address) {
   assert(width == BYTE);
+  
   
   switch (address - 0x1f801800) {
     case 0: {
