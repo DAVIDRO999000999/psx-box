@@ -1,6 +1,6 @@
 #include "spu_core.hpp"
 
-//Make a new uint32_t with the name spu and assign it the action of "bus_read"
+//Make a new uint32_t and assign it the function of "bus_read"
 uint32_t spu::bus_read(int width, uint32_t address) {
   return 0;
 }
