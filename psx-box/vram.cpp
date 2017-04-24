@@ -1,5 +1,6 @@
+#include <pch.h>
 #include "vram.hpp"
-#include "../utility.hpp"
+#include "utility.hpp"
 // im sure this is obvious but were callin the other headers so we can use them here
 
 static utility::memory_t<20> buffer;
