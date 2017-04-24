@@ -1,3 +1,4 @@
+#include <pch.h>
 #include "spu_core.hpp"
 
 //Make a new uint32_t and assign it the function of "bus_read"
