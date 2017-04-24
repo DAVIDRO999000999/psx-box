@@ -25,6 +25,7 @@
     <ClInclude Include="MainPage.xaml.h" />
     <ClInclude Include="cpu.h" />
     <ClInclude Include="ppu.h" />
+    <ClInclude Include="bus.hpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\LockScreenLogo.scale-200.png">
