@@ -29,4 +29,4 @@ namespace bus {
 }
 
 
-#endif //PSXBOX_BUS_HPP
+#endif //PSXBOX_BUS_HPP.
