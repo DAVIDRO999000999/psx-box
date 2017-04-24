@@ -11,6 +11,7 @@ namespace cdrom {
     // All the states that the CDROM can be in
     uint32_t interrupt_enable;
     uint32_t interrupt_disable;
+    uint32_t interrupt_request;
     uint32_t index;
     uint32_t command;
     bool has_command;
