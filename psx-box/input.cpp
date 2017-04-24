@@ -1,3 +1,4 @@
+#include <pch.h>
 #include "input.hpp"
 
 //Initialize a new state called input
