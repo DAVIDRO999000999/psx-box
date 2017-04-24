@@ -3,11 +3,11 @@ What has been Implemented so far?
 1. CD-Rom Drive
 2. CPU BUS
 3. Vram 
+4. Input
 
 
 Currently being worked on
 
 CPU Core Code
-Input
 Timimg Code
 
