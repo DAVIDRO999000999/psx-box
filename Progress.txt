@@ -8,4 +8,6 @@ What has been Implemented so far?
 Currently being worked on
 
 CPU Core Code
+Input
+Timimg Code
 
