@@ -1,4 +1,6 @@
 A Special Thanks to Adam-Becker for writing PSXACT the Open Source PSX Emulator from which psx-box is based off of.
+I would also like to thank Github user Simias for documenting the PS1 very well in his guide. The information has been
+invaulable to the project. https://github.com/simias/psx-guide
 
 {The Team}
 Developers - Wiired24,ElijahZAwesome
