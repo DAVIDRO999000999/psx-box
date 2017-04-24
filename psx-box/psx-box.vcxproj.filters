@@ -17,14 +17,12 @@
     <ClCompile Include="MainPage.xaml.cpp" />
     <ClCompile Include="pch.cpp" />
     <ClCompile Include="cpu.cpp" />
-    <ClCompile Include="ppu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="App.xaml.h" />
     <ClInclude Include="MainPage.xaml.h" />
     <ClInclude Include="cpu.h" />
-    <ClInclude Include="ppu.h" />
     <ClInclude Include="bus.hpp" />
   </ItemGroup>
   <ItemGroup>
