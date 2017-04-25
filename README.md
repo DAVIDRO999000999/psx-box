@@ -2,6 +2,7 @@
 ![Alt text](  http://i.imgur.com/mkp3JJb.jpg "psx-box")
 
 Progress 40 - 45% roughly
+ 
  What's already done?
  
  Memory has been implemented
