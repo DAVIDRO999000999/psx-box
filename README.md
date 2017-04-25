@@ -1,12 +1,12 @@
 # psx-box
 ![Alt text](  http://i.imgur.com/mkp3JJb.jpg "psx-box")
 
-Progress 40 - 45% roughly
+Progress 45 - 50% roughly
  
 # What's already done?
  
  Memory has been implemented
- Cd-Rom has been implemented 
+ CD-Rom has been implemented 
  Input has been implemented
  Timing has been implemeneted
  SPU Code has been implemented
