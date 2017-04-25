@@ -1,6 +1,7 @@
 #include <pch.h>
 #include <stdexcept>
 #include "cpu.h"
+#include "bus.hpp"
 
 cpu::state_t cpu::state;
 
