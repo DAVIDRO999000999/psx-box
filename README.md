@@ -29,7 +29,7 @@ If you wish to build psx-box
 psx-box requires SDL2 and cmake
 
 
-psx-box is free software licensed under GPLv2
+psx-box is free software licensed under GPLv3
 
 
 
