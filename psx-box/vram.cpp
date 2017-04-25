@@ -11,8 +11,9 @@ uint16_t* vram::get_pointer() {
 // the above (i think) is calling the vram pointer and multiplying it with the uint16_t value, then buffers it. (maybe?)
 
 uint16_t vram::read(int x, int y) {
-      return.h[(y * 1024) + x];
-// more of the same, i think
+	return buffer.h[(y * 1024) + x];
+	// more of the same, i think
+}
 
 void vram::write(int x, int y, uint16_t data) {
       if (x < 0 || x > 0x400) return;
