@@ -7,12 +7,14 @@
 #include <string>
 
 
-// Setting up needed types for the CPU Bus  
-enum bus_width_t { BYTE, HALF, WORD };
+
 
 
 // Setting up the bus namespace 
 namespace bus {
+	
+	// Setting up needed types for the CPU Bus  
+        enum bus_width_t { BYTE, HALF, WORD };
 
 	// Initialization logic for setting the BIOS and the game
 	void initialize(const std::string &bios_file_name, const std::string &game_file_name);
