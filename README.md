@@ -14,7 +14,7 @@ Progress 40 - 45% roughly
 
 ## Work left to do
 
-CPU Dissassembler
+Just a tiny bit of CPU Code
 GPU Code
 Timing Code
 Rendering Code
