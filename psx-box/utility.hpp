@@ -48,7 +48,7 @@ namespace utility {
        memory.b[(address & memory.mask) / 1] = uint8_t (data);
      }
      
-     templat<int bits>
+     template<int bits>
      void write_half(memory_t<bits> &memory, uint32_t address, uint32_t data) {
        memory.h[(address & memory.mask) / 2] = uint16_t (data);
      }
