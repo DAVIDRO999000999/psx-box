@@ -8,7 +8,7 @@
 
 
 // Setting up needed types for the CPU Bus  
-enum bus_width_t { BYTE, HALF, WORD };
+enum bus_width_t { BYTE1, HALF2, WORD3 };
 
 
 // Setting up the bus namespace 
