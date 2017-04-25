@@ -1,3 +1,4 @@
+
 #pragma once
 
 #ifndef PSXBOX_CPU_CORE_HPP
@@ -139,6 +140,7 @@ namespace cpu {
 	void op_mflo();
 	void op_mthi();
 	void op_mtlow();
+	void op_mtlo();
 	void op_mult();
 	void op_multu();
 	void op_nor();
@@ -154,8 +156,9 @@ namespace cpu {
 	void op_sltu();
 	void op_sra();
 	void op_srav();
-	void op_sr1();
-	void op_sr1v();
+	void op_srl();
+	void op_srlv();
+	void op_slry();
 	void op_sub();
 	void op_subu();
 	void op_sw();
@@ -192,5 +195,3 @@ namespace cpu {
 
 
 #endif //PSXBOX_CPU_CORE_HPP
-
-
