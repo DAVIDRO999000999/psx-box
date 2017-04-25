@@ -4,7 +4,7 @@
 //Initialize a new state called input
 static input::state_t state;
 
-//Reads the bus and runs special code depending on what address gets returned
+//Reads the bus and runs special code depending on what address gets passed to it
 uint32_t input::bus_read(int width, uint32_t address) {
   switch(address) {
     case 0x1f801040:
