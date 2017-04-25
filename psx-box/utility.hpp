@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <stdint.h>
 
-
+// Setting up namespace for utility
 namespace utility {
 	template<int bits>
 	struct memory_t {
@@ -20,13 +20,15 @@ namespace utility {
 	};
 
 	template<int bits>
+	
+	// Code for opening reading and closing a file
 	void read_all_bytes(const char *filename, memory_t<bits> &memory) {
 		if (FILE* file = fopen(filename, "rb+")) {
 			fread(memory.b, 1, memory.size, file);
 			fclose(file);
 		}
 	}
-
+        
 	template<int bits>
 	uint32_t read_byte(const memory_t<bits> &memory, uint32_t address) {
 		return memory.b[(address & memory.mask) / 1];
