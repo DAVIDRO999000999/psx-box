@@ -7,9 +7,6 @@
 #include <string>
 
 
-
-
-
 // Setting up the bus namespace 
 namespace bus {
 	
