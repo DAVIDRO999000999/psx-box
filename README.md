@@ -3,7 +3,7 @@
 
 Progress 40 - 45% roughly
  
- What's already done?
+# What's already done?
  
  Memory has been implemented
  Cd-Rom has been implemented 
@@ -13,7 +13,7 @@ Progress 40 - 45% roughly
  CPU Decoder has been implemented
 
 
-Work left to do
+## Work left to do
 
 CPU Dissassembler
 GPU Code
