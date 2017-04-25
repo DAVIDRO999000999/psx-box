@@ -21,6 +21,13 @@ Timing Code
 Dma Core Code
 
 
+## Building psx-box
+
+If you wish to build psx-box
+
+psx-box requires SDL2 and cmake
+
+
 psx-box is free software licensed under GPLv2
 
 
