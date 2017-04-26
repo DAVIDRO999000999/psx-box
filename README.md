@@ -1,7 +1,7 @@
 # psx-box
 ![Alt text](  http://i.imgur.com/mkp3JJb.jpg "psx-box")
 
-Progress 75 - 80% roughly
+Progress 85 - 90% roughly
  
 # What's already done?
  
@@ -12,12 +12,13 @@ Progress 75 - 80% roughly
  CPU Decoder has been implemented
  Rendering code has been implemented
  Dma Core Code has been implemented
+ Timing code has been implemented
 
 
 ## Work left to do
 
 Just a bit of GPU Code
-Timing Code
+
 
 
 ## Building psx-box
