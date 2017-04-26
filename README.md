@@ -11,7 +11,7 @@ Progress 60 - 65% roughly
  SPU Code has been implemented
  CPU Decoder has been implemented
  Rendering code has been implemented
- Dma core code has been implemented
+ Dma Core Code has been implemented
 
 
 ## Work left to do
