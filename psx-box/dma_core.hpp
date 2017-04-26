@@ -5,7 +5,7 @@
 
 namespace dma {
   struct state_t {
-    uint32_t door = 0x07654321
+    uint32_t door = 0x07654321;
     uint32_t dicr = 0x00000000;
 
     struct {
