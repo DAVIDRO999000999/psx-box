@@ -1,3 +1,4 @@
+#include <pch.h>
 #include "dma_core.hpp"
 #include "bus.hpp"
 #include "gpu_core.hpp"
