@@ -1,4 +1,5 @@
 //Add some essential previously coded header files
+#include <pch.h>
 #include "renderer.hpp"
 #include "vram.hpp"
 
