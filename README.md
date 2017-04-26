@@ -1,7 +1,7 @@
 # psx-box
 ![Alt text](  http://i.imgur.com/mkp3JJb.jpg "psx-box")
 
-Progress 60 - 65% roughly
+Progress 75 - 80% roughly
  
 # What's already done?
  
@@ -16,8 +16,7 @@ Progress 60 - 65% roughly
 
 ## Work left to do
 
-Just a tiny bit of CPU Code
-GPU Code
+Just a bit of GPU Code
 Timing Code
 
 
