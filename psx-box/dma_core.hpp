@@ -1,11 +1,11 @@
-#ifndef PSXBOX_DMA_CORE_HPP
-#define PSXBOX_DMA_CORE_HPP
+#ifndef PSXACT_DMA_CORE_HPP
+#define PSXACT_DMA_CORE_HPP
 
 #include <cstdint>
 
 namespace dma {
   struct state_t {
-    uint32_t door = 0x07654321;
+    uint32_t dpcr = 0x07654321;
     uint32_t dicr = 0x00000000;
 
     struct {
@@ -26,4 +26,4 @@ namespace dma {
   void run_channel(int n);
 }
 
-#endif //PSXBOX_DMA_CORE_HPP
+#endif //PSXACT_DMA_CORE_HPP
