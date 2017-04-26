@@ -126,7 +126,7 @@ void cpu::read_code() {
 
 	// todo: read i-cache
 
-	state.code = bus::read(WORD, map_address(state.regs.this_pc));
+	state.code = bus::read(bus::WORD_w, map_address(state.regs.this_pc));
 }
 
 uint32_t cpu::read_data(int width, uint32_t address) {
@@ -177,3 +177,4 @@ void cpu::bus_write(int width, uint32_t address, uint32_t data) {
 		break;
 	}
 }
+
